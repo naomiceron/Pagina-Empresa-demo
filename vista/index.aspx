@@ -54,9 +54,7 @@
                                 <li class="nav-item">
                                 <a class="nav-link" href="#portafolio">Portafolio</a>
                               </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#!">Contactanos</a>
-                              </li>
+                                
                                 
                             </ul>
                           </div>
@@ -84,7 +82,7 @@
                             <div class="carousel-item active">
                                 <p class="h3"> Bienvenido </p>
                                 <h1 class="display-4"> Creando tu espacio ideal desde 1998</h1>
-                                <asp:Button ID="btnContacto" CssClass="btn btn-primary btn-lg mt-5" runat="server" Text="Contactanos" />
+                               
                             </div>
                             <div class="carousel-item">
                                 
