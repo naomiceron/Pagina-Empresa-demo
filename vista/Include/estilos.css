@@ -1,0 +1,176 @@
+﻿
+html {
+    font-size:15px; /*se le conoce como: 1rem*/
+
+}
+.bienvenidos {
+    background: url("images/edificio.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.encabezado {
+    background: #76bed570;
+    padding: 1rem;
+}
+.navbar-toggler-icon {
+    
+    width: 2.5em;
+    height: 2.5em;
+    
+}
+.navbar-light .navbar-toggler {
+
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    text-align: center;
+    margin: 1.1rem;
+    
+    margin-top: .5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    margin: .5rem;
+    transition: all .5s ease;
+   
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(0,0,0,.7);
+        background: #29aac9;
+        font-size: 1.1rem;
+        
+}
+.contenidoPagina{
+    color:black;
+    margin-top:1.5rem;
+    text-align:center;
+    padding:2rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #148cc7;
+    border-color: #189fe1;
+    transition:.5s ease;
+}
+.btn-primary:hover {
+        color: #fff;
+        background-color: #116e9b;
+        border-color: #146daf;
+}
+.fixed-top {
+    background: rgba(29, 33, 36, .7);
+    padding: 1rem;
+}
+/*seccion redes*/
+.redes {
+    float: right;
+    right: 1rem;
+    margin-top: 10rem;
+    position: fixed;
+    width: 3pc;
+    z-index: 100020;
+    background: none;
+}
+
+.redes img:hover {
+        width: 60px;
+        height: 60px;
+}
+
+/*seccion Quienes-somos*/
+.quienes-somos {
+    color: #fff;
+    background-color: #172632;
+    /*height: 80vh;*/
+}
+.h1-quienes-somos {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.logo {
+    margin-bottom: 1.5rem;
+    width: 22rem;
+    height: 19rem;
+}
+/*seccion servicios*/
+    .servicios i {
+    color: #0270bf;
+    font-size: 3.5rem;
+    
+}
+.servicios img{
+    transition: all .5s ease;
+}
+.servicios img:hover {
+        transform: scale(1.5);
+ }
+.servicios i:hover {
+    color: #065f9f;
+}
+.serviciotxt{
+    margin-top:1.5rem;
+}
+
+.logo2 {
+    width: 50px;
+    height: 50px;
+}
+/*seccion portafolio*/
+.portafolio {
+    color: #fff;
+    background-color: #404949;
+    
+}
+.portafolio img{
+    transition: all .5s ease;
+    height: 100%;
+    padding-top: 2rem;
+}
+.portafolio img:hover{
+    transform:scale(1.5);
+}
+.portafolio h3 {
+    padding-top: 1rem;
+    padding-bottom:2rem;
+}
+/*seccion footer*/
+.footerClass{
+    color:black;
+    background-color:#fff;
+    min-height:10rem;
+
+}
+.footerClass a{
+    display:block;
+    overflow:hidden;
+    color:#116e9b;
+    text-decoration:none;
+}
+/*seccion contactanos formulario*/
+.contactanosFormulario {
+   
+    background-color: #ffffffc4;
+    text-align: center;
+   
+    padding: 1.5rem;
+    margin: 2rem;
+}
+.bienvenidosContactanos {
+    background: url("images/edificio.jpg");
+    background-size: cover;
+    
+}
+/*seccion login formulario*/
+.loginFormulario {
+    background-color: #ffffffc4;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem;
+   
+}
+.textoLogin {
+    text-align: justify;
+}
